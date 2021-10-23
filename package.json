@@ -1,0 +1,38 @@
+{
+  "name": "scsslib",
+  "version": "1.0.0",
+  "description": "Basic scss/css for faster develop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n3ffi/ScssLib.git"
+  },
+  "keywords": [
+    "scss",
+    "git",
+    "css"
+  ],
+  "author": "David Bilan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/n3ffi/ScssLib/issues"
+  },
+  "homepage": "https://github.com/n3ffi/ScssLib#readme",
+  "dependencies": {
+    "css-loader": "^5.2.1",
+    "event-hooks-webpack-plugin": "^2.2.0",
+    "file-loader": "^6.2.0",
+    "glob": "^7.1.6",
+    "mini-css-extract-plugin": "^1.4.1",
+    "resolve-url-loader": "^3.1.4",
+    "sass": "^1.36.0",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {}
+}
