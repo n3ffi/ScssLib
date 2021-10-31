@@ -1,0 +1,76 @@
+.btn {
+  transition: 0.2s linear;
+  background-color: transparent;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 2px solid;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.btn.btn-primary {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+.btn.btn-primary:hover {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.btn.btn-secondary {
+  border-color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+.btn.btn-secondary:hover {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.btn.btn-success {
+  border-color: var(--color-success);
+  color: var(--color-success);
+}
+.btn.btn-success:hover {
+  background-color: var(--color-success);
+  color: white;
+}
+
+.btn.btn-info {
+  border-color: var(--color-info);
+  color: var(--color-info);
+}
+.btn.btn-info:hover {
+  background-color: var(--color-info);
+  color: white;
+}
+
+.btn.btn-warning {
+  border-color: var(--color-warning);
+  color: var(--color-warning);
+}
+.btn.btn-warning:hover {
+  background-color: var(--color-warning);
+  color: white;
+}
+
+.btn.btn-error {
+  border-color: var(--color-error);
+  color: var(--color-error);
+}
+.btn.btn-error:hover {
+  background-color: var(--color-error);
+  color: white;
+}
+
+.btn.btn-dark {
+  border-color: var(--color-dark);
+  color: var(--color-dark);
+}
+.btn.btn-dark:hover {
+  background-color: var(--color-dark);
+  color: white;
+}

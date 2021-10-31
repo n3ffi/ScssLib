@@ -5,7 +5,7 @@ const path = require("path");
 const glob = require("glob");
 
 const ASSETS_SRC_PATH = __dirname + "/source_assets/";
-const ASSETS_DEST_PATH = __dirname + "/assets";
+const ASSETS_DEST_PATH = __dirname + "/dist";
 
 module.exports = {
 	mode: "development",
